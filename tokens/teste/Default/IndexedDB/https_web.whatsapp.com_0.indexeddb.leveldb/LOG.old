@@ -1,3 +1,89 @@
-2022/03/27-13:57:18.064 80d5 Reusing MANIFEST /home/danielselga/Documents/Trabalhos/wpp-solution/venon-wpp-solution-api/tokens/teste/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/03/27-13:57:18.065 80d5 Recovering log #3
-2022/03/27-13:57:18.067 80d5 Reusing old log /home/danielselga/Documents/Trabalhos/wpp-solution/venon-wpp-solution-api/tokens/teste/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000003.log 
+2022/03/27-14:49:11.314 bb91 Reusing MANIFEST /home/danielselga/Documents/Trabalhos/wpp-solution/venon-wpp-solution-api/tokens/teste/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/03/27-14:49:11.315 bb91 Recovering log #285
+2022/03/27-14:49:11.379 bb91 Reusing old log /home/danielselga/Documents/Trabalhos/wpp-solution/venon-wpp-solution-api/tokens/teste/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000285.log 
+2022/03/27-14:49:23.837 bb93 Level-0 table #299: started
+2022/03/27-14:49:23.954 bb93 Level-0 table #299: 1190505 bytes OK
+2022/03/27-14:49:23.997 bb93 Delete type=0 #285
+2022/03/27-14:49:24.200 bb91 Compacting 1@1 + 10@2 files
+2022/03/27-14:49:24.355 bb91 Generated table #300@1: 42695 keys, 2262938 bytes
+2022/03/27-14:49:24.475 bb91 Generated table #301@1: 9265 keys, 2162238 bytes
+2022/03/27-14:49:24.632 bb91 Generated table #302@1: 3529 keys, 2157105 bytes
+2022/03/27-14:49:24.766 bb91 Generated table #303@1: 4416 keys, 2161416 bytes
+2022/03/27-14:49:24.935 bb91 Generated table #304@1: 31176 keys, 2258027 bytes
+2022/03/27-14:49:25.081 bb91 Generated table #305@1: 28481 keys, 2204669 bytes
+2022/03/27-14:49:25.214 bb91 Generated table #306@1: 30905 keys, 2160331 bytes
+2022/03/27-14:49:25.378 bb91 Generated table #307@1: 106161 keys, 2258415 bytes
+2022/03/27-14:49:25.546 bb91 Generated table #308@1: 103739 keys, 2256412 bytes
+2022/03/27-14:49:25.641 bb91 Generated table #309@1: 49893 keys, 1075584 bytes
+2022/03/27-14:49:25.641 bb91 Compacted 1@1 + 10@2 files => 20957135 bytes
+2022/03/27-14:49:25.689 bb91 compacted to: files[ 0 0 10 0 0 0 0 ]
+2022/03/27-14:50:33.313 bb91 Level-0 table #311: started
+2022/03/27-14:50:33.433 bb91 Level-0 table #311: 1150353 bytes OK
+2022/03/27-14:50:33.530 bb91 Delete type=2 #288
+2022/03/27-14:50:33.530 bb91 Delete type=2 #294
+2022/03/27-14:50:33.530 bb91 Delete type=2 #299
+2022/03/27-14:50:33.530 bb91 Delete type=2 #291
+2022/03/27-14:50:33.530 bb91 Delete type=2 #292
+2022/03/27-14:50:33.530 bb91 Delete type=0 #298
+2022/03/27-14:50:33.530 bb91 Delete type=2 #287
+2022/03/27-14:50:33.530 bb91 Delete type=2 #295
+2022/03/27-14:50:33.530 bb91 Delete type=2 #289
+2022/03/27-14:50:33.530 bb91 Delete type=2 #290
+2022/03/27-14:50:33.530 bb91 Delete type=2 #293
+2022/03/27-14:50:33.530 bb91 Delete type=2 #296
+2022/03/27-14:50:33.772 bb8c Compacting 1@1 + 10@2 files
+2022/03/27-14:50:33.971 bb8c Generated table #312@1: 42338 keys, 2266355 bytes
+2022/03/27-14:50:34.126 bb8c Generated table #313@1: 9436 keys, 2162063 bytes
+2022/03/27-14:50:34.266 bb8c Generated table #314@1: 3522 keys, 2155630 bytes
+2022/03/27-14:50:34.422 bb8c Generated table #315@1: 4424 keys, 2162383 bytes
+2022/03/27-14:50:34.579 bb8c Generated table #316@1: 31098 keys, 2257852 bytes
+2022/03/27-14:50:34.688 bb8c Generated table #317@1: 28571 keys, 2203486 bytes
+2022/03/27-14:50:34.821 bb8c Generated table #318@1: 24284 keys, 2151131 bytes
+2022/03/27-14:50:34.990 bb8c Generated table #319@1: 106529 keys, 2257524 bytes
+2022/03/27-14:50:35.158 bb8c Generated table #320@1: 104598 keys, 2255221 bytes
+2022/03/27-14:50:35.255 bb8c Generated table #321@1: 68822 keys, 1485998 bytes
+2022/03/27-14:50:35.255 bb8c Compacted 1@1 + 10@2 files => 21357643 bytes
+2022/03/27-14:50:35.303 bb8c compacted to: files[ 0 0 10 0 0 0 0 ]
+2022/03/27-14:50:35.304 bb8c Delete type=2 #300
+2022/03/27-14:50:35.304 bb8c Delete type=2 #306
+2022/03/27-14:50:35.304 bb8c Delete type=2 #302
+2022/03/27-14:50:35.304 bb8c Delete type=2 #307
+2022/03/27-14:50:35.304 bb8c Delete type=2 #301
+2022/03/27-14:50:35.304 bb8c Delete type=2 #309
+2022/03/27-14:50:35.304 bb8c Delete type=2 #304
+2022/03/27-14:50:35.304 bb8c Delete type=2 #303
+2022/03/27-14:50:35.304 bb8c Delete type=2 #308
+2022/03/27-14:50:35.304 bb8c Delete type=2 #305
+2022/03/27-14:50:35.304 bb8c Delete type=2 #311
+2022/03/27-14:51:46.304 bb8e Level-0 table #323: started
+2022/03/27-14:51:46.425 bb8e Level-0 table #323: 1080117 bytes OK
+2022/03/27-14:51:46.510 bb8e Delete type=0 #310
+2022/03/27-14:51:46.669 bb91 Compacting 1@0 + 0@1 files
+2022/03/27-14:51:46.787 bb91 Generated table #324@0: 36638 keys, 628243 bytes
+2022/03/27-14:51:46.787 bb91 Compacted 1@0 + 0@1 files => 628243 bytes
+2022/03/27-14:51:46.922 bb91 compacted to: files[ 0 1 10 0 0 0 0 ]
+2022/03/27-14:51:46.923 bb91 Delete type=2 #323
+2022/03/27-14:51:48.055 bc59 Compacting 1@1 + 10@2 files
+2022/03/27-14:51:48.267 bc59 Generated table #325@1: 42402 keys, 2265156 bytes
+2022/03/27-14:51:48.435 bc59 Generated table #326@1: 9443 keys, 2160757 bytes
+2022/03/27-14:51:48.616 bc59 Generated table #327@1: 3520 keys, 2156514 bytes
+2022/03/27-14:51:48.795 bc59 Generated table #328@1: 4424 keys, 2162065 bytes
+2022/03/27-14:51:49.027 bc59 Generated table #329@1: 31066 keys, 2257359 bytes
+2022/03/27-14:51:49.266 bc59 Generated table #330@1: 26299 keys, 2202423 bytes
+2022/03/27-14:51:49.434 bc59 Generated table #331@1: 17817 keys, 2144564 bytes
+2022/03/27-14:51:49.662 bc59 Generated table #332@1: 108003 keys, 2259950 bytes
+2022/03/27-14:51:49.967 bc59 Generated table #333@1: 104912 keys, 2257060 bytes
+2022/03/27-14:51:50.124 bc59 Generated table #334@1: 87878 keys, 1899086 bytes
+2022/03/27-14:51:50.124 bc59 Compacted 1@1 + 10@2 files => 21764934 bytes
+2022/03/27-14:51:50.171 bc59 compacted to: files[ 0 0 10 0 0 0 0 ]
+2022/03/27-14:51:50.171 bc59 Delete type=2 #321
+2022/03/27-14:51:50.171 bc59 Delete type=2 #316
+2022/03/27-14:51:50.171 bc59 Delete type=2 #314
+2022/03/27-14:51:50.171 bc59 Delete type=2 #324
+2022/03/27-14:51:50.171 bc59 Delete type=2 #317
+2022/03/27-14:51:50.171 bc59 Delete type=2 #319
+2022/03/27-14:51:50.171 bc59 Delete type=2 #315
+2022/03/27-14:51:50.171 bc59 Delete type=2 #312
+2022/03/27-14:51:50.171 bc59 Delete type=2 #318
+2022/03/27-14:51:50.171 bc59 Delete type=2 #313
+2022/03/27-14:51:50.171 bc59 Delete type=2 #320

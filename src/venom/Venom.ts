@@ -1,16 +1,15 @@
-const venom = require('venom-bot');
+import { create, Whatsapp } from 'venom-bot';
 export class VenomInstance {
     sessionName: string;
-    sendMessageOptions: Function;
+    client: Promise<Whatsapp>
     constructor(sessionName: string) {
         this.sessionName = sessionName
-        this.init()
+        this.client = this.init()
     }
 
     async init() {
         try {
-            await venom
-                .create(
+            return await create(
                     //session
                     this.sessionName, //Pass the name of the client you want to start the bot
                     //catchQR

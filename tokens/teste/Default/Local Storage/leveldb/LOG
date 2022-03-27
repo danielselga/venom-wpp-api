@@ -1,3 +1,6 @@
-2022/03/27-14:05:36.758 8598 Reusing MANIFEST /home/danielselga/Documents/Trabalhos/wpp-solution/venon-wpp-solution-api/tokens/teste/Default/Local Storage/leveldb/MANIFEST-000001
-2022/03/27-14:05:36.759 8598 Recovering log #3
-2022/03/27-14:05:36.759 8598 Reusing old log /home/danielselga/Documents/Trabalhos/wpp-solution/venon-wpp-solution-api/tokens/teste/Default/Local Storage/leveldb/000003.log 
+2022/03/27-14:53:12.022 be93 Reusing MANIFEST /home/danielselga/Documents/Trabalhos/wpp-solution/venon-wpp-solution-api/tokens/teste/Default/Local Storage/leveldb/MANIFEST-000001
+2022/03/27-14:53:12.023 be93 Recovering log #3
+2022/03/27-14:53:12.023 be93 Reusing old log /home/danielselga/Documents/Trabalhos/wpp-solution/venon-wpp-solution-api/tokens/teste/Default/Local Storage/leveldb/000003.log 
+2022/03/27-14:54:12.219 bedb Level-0 table #5: started
+2022/03/27-14:54:12.259 bedb Level-0 table #5: 18039 bytes OK
+2022/03/27-14:54:12.302 bedb Delete type=0 #3
