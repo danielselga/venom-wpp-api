@@ -1,15 +1,23 @@
 import { Body, Controller, Post, Req } from "@nestjs/common";
-import { VenomInterface } from "./venom.interfaces";
 import { VenomInstance } from "./Venom";
 
-@Controller('init')
+let venom: VenomInstance;
+@Controller('venom')
 export class VenomController {
-    @Post('venom')
-    async initVenom(@Req() @Body() req: VenomInterface): Promise<void> {
+    @Post('init')
+    async initVenom(@Req() @Body() req: VenomInstance): Promise<void> {
         try {
             const sessionName: string = req.sessionName
-            const venom = new VenomInstance(sessionName)
-            console.log(venom)
+            venom = new VenomInstance(sessionName)
+        } catch (err) {
+            console.log(err)
+        }
+    }
+
+    @Post('message')
+    async sendMessage(@Req() @Body() req: VenomInstance): Promise<void> {
+        try {
+            venom.sendMessageOptions('000000000000@c.us', 'This is a reply!')
         } catch (err) {
             console.log(err)
         }
