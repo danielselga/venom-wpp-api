@@ -1,3 +1,3 @@
-export interface CreateVenomSession {
-    sessionName: String
+export interface VenomInterface {
+    sessionName: string
 }
