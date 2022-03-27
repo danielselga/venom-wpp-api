@@ -1,15 +1,19 @@
-import { Controller, Get } from "@nestjs/common";
+import { Body, Controller, Post, Req } from "@nestjs/common";
+import { Request } from 'express';
 import venom from 'venom-bot'
 
-@Controller('/init/venom')
+@Controller('init')
 export class VenomController {
-    @Get()
-    async initVenom(): Promise<void> {
+    @Post('venom')
+    async initVenom(@Req() @Body() req: Request): Promise<void> {
         try {
-            venom.create({
-                session: 'session-name', //name of session
-                multidevice: false // for version not multidevice use false.(default: true)
-              })
+            const sessionName : string = 'session-name'
+            
+            // venom.create({
+            //     session: sessionName, //name of session
+            //     multidevice: false // for version not multidevice use false.(default: true)
+            //   })
+            console.log(req)
         } catch (err) {
             console.log(err)
         }
