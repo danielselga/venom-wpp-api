@@ -20,7 +20,7 @@ export class VenomController {
         try {
             // (await venom).sendText('+5527999817892', 'Hi!')
             const client = await venom
-            await client.sendText('5527997133409@c.us', 'Se fuder toma no seu cu! pedi franguinho pq vc e otaria.')
+            await client.sendText('5527997133409@c.us', 'Oi, tudo bem?\n\nQuer ganhar qualidade de vida, saúde e emagrecer de vez ainda em 2022?\nMuito prazer, sou a Georgia, consultora da Clínica Bem Viver de Aracruz, e to aqui pra te ajudar. 😄\n\nA gente sabe que é difícil cuidar da saúde sozinho. Por isso mesmo, criamos um ambiente que reúne os melhores profissionais da Nutrição, Psicologia e Consultoria Fitness, todos em um mesmo local. 🩺💚\n\nGostou? Bora se cuidar? É simples, já me responde aqui para conhecer nossos Planos Promocionais e marcar seu horário! Estamos te esperando, agora só depende de você !')
         } catch (err) {
             console.log(err)
         }
